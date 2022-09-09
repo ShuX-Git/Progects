@@ -1,0 +1,64 @@
+<form novalidate #form="ngForm" (submit)="onSubmit(form)">
+
+<input type="hidden" name="numberId"
+[value]="service.formData.numberId"/>
+    <div class="row">
+    <div class="form-group col-md-6">
+        <label>Owners Name</label>
+        <input class="form-control form-control-lg" placeholder="Full Name"
+        name="ownersName" #ownersName="ngModel" [(ngModel)]="service.formData.ownersName"
+        required maxlength="8" minlength="1" [class.invalid]="ownersName.invalid && ownersName.touched">
+    </div>
+
+    <div class="form-group col-md-6">
+        <label>Owners Lastname</label>
+        <input class="form-control form-control-lg" placeholder="Full Name"
+        name="ownersLastname" #ownersLastname="ngModel" [(ngModel)]="service.formData.ownersLastname"
+        required maxlength="10" minlength="1" [class.invalid]="ownersLastname.invalid && ownersLastname.touched">
+    </div>
+    </div>
+    <div class="form-group">
+        <label>Pet Name</label>
+        <input class="form-control form-control-lg" placeholder="Full Name"
+        name="petsName" #petsName="ngModel" [(ngModel)]="service.formData.petsName"
+        required maxlength="8" minlength="1" [class.invalid]="petsName.invalid && petsName.touched">
+    </div>
+
+    <div class="form-group">
+        <label>Mobile Number</label>
+        <input class="form-control form-control-lg" placeholder="Full Name"
+        name="mobileNumber" #mobileNumber="ngModel" [(ngModel)]="service.formData.mobileNumber"
+        required maxlength="10" minlength="10" [class.invalid]="mobileNumber.invalid && mobileNumber.touched">
+    </div>
+    <div class="row">
+    <div class="form-group col-md-6">
+        <label>Data</label>
+        <input class="form-control form-control-lg" placeholder="Full Name"
+        name="data" #data="ngModel" [(ngModel)]="service.formData.data"
+        required maxlength="10" minlength="10" [class.invalid]="data.invalid && data.touched">
+    </div>
+
+    <div class="form-group col-md-6">
+        <label>Time</label>
+        <input class="form-control form-control-lg" placeholder="Full Name"
+        name="time" #time="ngModel" [(ngModel)]="service.formData.time"
+        required maxlength="5" minlength="5" [class.invalid]="time.invalid && time.touched">
+    </div>
+    </div>
+    <div class="form-group">
+        <label>Services</label>
+        <input class="form-control form-control-lg" placeholder="Full Name"
+        name="services" #services="ngModel" [(ngModel)]="service.formData.services"
+        required maxlength="15" minlength="1" [class.invalid]="services.invalid && services.touched">
+        </div>
+    
+
+
+
+<div class="form-group">
+    <button class="btn btn-secondary btn-lg btn-block" type="submit" [disabled]="form.invalid">Submitt</button>
+</div>
+
+
+
+</form>

@@ -1,0 +1,39 @@
+<div class="jumboton py-3">
+    
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <app-hospital-detail-form></app-hospital-detail-form>
+    </div>
+    <div class="col-md-6">
+        <table class="table">
+            <thead class="thead-light">
+               <tr>
+                   <th>Owners Name</th>
+                   <th>Owners Lastname</th>
+                   <th>Pet Name</th>
+                   <th>Mobile Number</th>
+                   <th>Data</th>
+                   <th>Time</th>
+                   <th>Services</th>
+                   
+               </tr> 
+            </thead>
+            <tbody>
+                
+                <tr *ngFor="let pd of service.list">
+                    <td>{{pd.ownersName}}</td>
+                    <td>{{pd.ownersLastname}}</td>
+                    <td>{{pd.petsName}}</td>
+                    <td>{{pd.mobileNumber}}</td>
+                    <td>{{pd.data}}</td>
+                    <td>{{pd.time}}</td>
+                    <td>{{pd.services}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

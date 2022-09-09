@@ -1,0 +1,678 @@
+body{
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+
+
+
+.main1{
+    background-color: #fbf9fa;
+    
+}
+
+.main2{
+    background-color: #ffffff;
+    
+}
+
+.main3{
+    background-color: #f3f3f3;
+    
+}
+
+.group-of-companies, 
+.what-do-we-offer__first,
+.the-purchase-price,
+.what-do-we-offer__second,
+.our-news{
+    margin: 0 50px;
+    padding: 20px 0 0 0;
+}
+
+
+
+.header{
+    position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0 30px;
+}
+
+.menu__item{
+    padding: 0 40px;
+    list-style: none;
+}
+
+.menu__link{
+    text-decoration: none;
+    font-size: 24px;
+    
+    color: black;
+    font-weight: 200;
+}
+
+.header__argo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.argo__img{
+    width: 100%;
+}
+
+.argo_text__container{
+    font-size: 34px;
+    
+    font-weight: 300;
+    padding: 0 0 20px 0;
+}
+
+.argo_text__container span{
+    color: #e2ba7b;
+    font-weight: 500;
+}
+
+
+.header__argo{
+    background-image: url(../img/wheat.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size:40%;
+    display: flex;
+    max-width: 97%;
+    margin: 0 auto;
+    min-height: 40vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+.argo__img__container{
+    
+    flex: 1 0 40%;
+}
+
+.argo_btn{
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    border-left: 1px solid #65aa44;
+    border-right: 1px solid #65aa44;
+    max-width: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.agro__button{
+    text-decoration: none;
+    color: black;
+}
+
+.group-of-companies__text-row{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.go-text{
+    padding: 0 5px 5px 5px;
+    font-size: 28px;
+    font-weight: 500;
+    border-left: 9px solid #65aa44;
+    border-bottom: 1px solid #65aa44;
+}
+
+.go-text-inside{
+    font-size: 14px;
+    color: #808080;
+    padding:20px 0 ;
+}
+
+.colums-goc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caps-text-gof{
+    font-size: 20px;
+    font-weight: 700;
+    color: #65aa44;
+    
+}
+
+.column-goc1{
+    padding: 0 20px 0 0;
+    max-width: 400px;
+}
+
+.column-goc2{
+    padding: 0 20px 0 0;
+    max-width: 400px;
+}
+
+.column-goc3{
+    max-width: 400px;
+}
+
+
+.text-gof{
+    font-size: 14px;
+    color: #808080;
+    padding: 20px 0 0 0;
+}
+
+.text-wdwo-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.caps-text_wdwo{
+    padding: 0 5px 5px 5px;
+    font-size: 28px;
+    font-weight: 500;
+    border-left: 9px solid #65aa44;
+    border-bottom: 1px solid #65aa44;
+}
+
+.text_wdwo, .text_wdwo2{
+    font-size: 14px;
+    color: #808080;
+}
+
+.text_wdwo{
+   padding: 20px 0; 
+}
+
+.tpfss-img{
+    display: flex;
+    flex-direction: row;
+}
+
+.wdwo-row-div{
+    display: flex;
+    flex-direction: row;
+    flex: 1 20;
+    padding: 20px 0;
+}
+
+.wdwo-row-div a{
+    padding: 12px 0 0 30px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.the-purchase-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-purchase__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_caps-purchase{
+    padding: 0 5px 5px 5px;
+    font-size: 28px;
+    font-weight: 500;
+    border-left: 9px solid #65aa44;
+    border-bottom: 1px solid #65aa44;
+}
+
+.text-purchase{
+    font-size: 14px;
+    color: #808080;
+    padding: 20px 0 15px 0;
+}
+
+.text-footer-purchase{
+    font-size: 14px;
+    color: #808080;
+    font-style: italic;
+}
+
+table, td, th{
+    border: 3px solid #e2ba7b;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.price__table {
+    border: 2px solid #e2ba7b;
+    text-align: center;
+    width: 100%;
+}
+
+.price__table tr td:first-child {
+    font-weight: 700;
+} 
+
+.text-footer-purchase {
+    padding: 10px 0 50px 0;
+}
+
+.caps-text__second-wdwo{
+    padding: 0 5px 5px 5px;
+    font-size: 28px;
+    font-weight: 500;
+    border-left: 9px solid #65aa44;
+    border-bottom: 1px solid #65aa44;
+}
+
+.text-second-wdwo{
+    font-size: 14px;
+    color: #808080;
+    padding: 30px 0 10px 0;
+}
+
+
+
+.offer-2__item::before {
+    content: "•";
+    font-size: 15px;
+    color: #e2ba7b;
+    position: absolute;
+    left: 70px;
+    
+    
+}
+
+.offer-2__list{
+    font-size: 14px;
+    color: #808080; 
+    margin: 20px 0 40px 0;
+}
+
+.offer-2__item{
+    list-style: none; 
+}
+
+
+
+.news-caps-text{
+    padding: 0 5px 5px 5px;
+    font-size: 28px;
+    font-weight: 500;
+    border-left: 9px solid #65aa44;
+    border-bottom: 1px solid #65aa44; 
+}
+
+.news-items{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 50px 0;
+}
+
+.news-img{
+  object-fit: none; 
+}
+
+.img-item{
+    width: 8vw;
+    height: 11vw; 
+    
+}
+
+.news-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 15px 0px rgba(199, 197, 199, 0.7);
+    max-width: 460px;
+    flex: 0 1 33.333%;
+    
+    
+    border: 10px solid #fbf9fa;
+    
+    margin: 0px 15px;
+}
+
+.news-item:first-child{
+    margin-left: 0px;
+    
+}
+.news-item:last-child{
+    margin-right: 0px;
+    
+}
+
+.news-text a{
+    display: flex;
+    
+}
+
+.caps-text-2{
+    font-size: 14px;
+    color: #101010;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.time-news{
+    font-size: 14px;
+    color: #808080;
+    padding: 0 10px; 
+}
+
+.news__text{
+    font-size: 14px;
+    color: #808080;
+    padding: 0 10px; 
+}
+
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 20px 30px ;
+    
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.footer-img-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__left img{
+    max-width: 30px;
+
+}
+
+.img-item-footer{
+    width: 100%;
+    padding: 10px;
+}
+
+.footer__left-centr,
+.footer__left-centr-2,
+.footer__right{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__text-centr-1-1,
+.footer__text-centr-2-1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__text-centr-2-1{
+    padding: 20px 0;
+}
+
+.caps-text__footer,
+.footer__left a{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.caps-text__footer{
+    padding: 20px 0px;
+}
+
+.caps-text__footer {
+    text-align:right;
+}
+
+.footer__text{
+    padding: 20px 10px;
+    color: #808080;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .argo_text__container{
+        font-size: 28px;
+        
+        font-weight: 300;
+        padding: 70px 0 20px 0;
+    } 
+}
+
+
+
+@media screen and (max-width: 991px){
+
+    .header__argo{
+        background-image: url(../img/wheat.jpg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size:70%;
+        display: flex;
+        max-width: 100%;
+        margin: 0 auto;
+        min-height: 60vw;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+   .menu__link{
+    font-size: 18px;
+   }
+
+   .menu__item{
+    padding: 0 20px;
+   }
+
+  .argo__img__container{
+    flex: 1 0 50%;
+   }
+
+    .argo_text__container{
+        font-size: 23px;
+        font-weight: 300;
+        padding: 90px 0 30px 0;
+    }
+
+    .tpfss-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-item{
+        margin: 0px 0px 20px 0px;
+        max-width: none;
+    }
+
+    .img-item{
+        width: 16vw;
+        height: 16vw; 
+    }
+
+    .news-items{
+        padding: 20px 0 0 0;
+    }
+
+    .news-text{
+        padding: 0 20px;
+    }
+
+    .time-news{
+        padding: 0 0 20px 10px;
+    }
+
+    .main_footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caps-text__footer{
+        text-align: left;
+        padding: 20px 0 1px 0;
+    }
+
+    .footer__left {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0 0 0;
+    }
+
+    .footer-img-left{
+        
+        flex-direction: row;
+    }
+
+    .footer-img-left img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .img-item-footer{
+        padding: 2px;
+        
+    }
+
+    .footer__left img{
+        max-width: none;
+    
+    }
+
+    .footer__text{
+        padding: 0 0 0 70px;
+        font-size: 14px;
+    }
+
+    .caps-text__footer{
+        min-width: 100px;
+        padding: 0;
+    }
+
+    .footer__left-centr{
+        padding: 20px 0 0 0;
+    }
+
+   
+
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    .menu__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 4vw;
+        min-width: 100%;
+    }
+
+    .menu__body {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .menu__item {
+        text-align: center;
+    }
+    .menu__link{
+        font-weight: 500;
+        
+    }
+
+    .argo_text{
+        text-align: center;
+        margin: 0 50px;
+        
+    }
+
+    .header__argo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .argo__img__container{
+        flex: none;
+    }
+
+    .argo_text__container{
+        font-size: 19px;
+    }
+
+    .argo_btn{
+        margin: none;
+        max-width: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .argo--btn-2{
+        font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    border-left: 1px solid #65aa44;
+    border-right: 1px solid #65aa44;
+    max-width: 100px;
+    }
+
+    .go-text,
+    .text_caps-purchase,
+    .caps-text_wdwo,
+    .caps-text__second-wdwo,
+    .news-caps-text{
+        padding: 0 5px 5px 5px;
+        font-size: 18px;
+        font-weight: 500;
+        border-left: 9px solid #65aa44;
+        border-bottom: 1px solid #65aa44;
+    }
+
+    .colums-goc{
+        flex-direction: column;
+    }
+
+    .column-goc1{
+        max-width: none; 
+        padding: 0 0 20px 0;
+    }
+
+    .column-goc2{
+        max-width: none; 
+        padding: 0 0 20px 0;
+    }
+
+    .column-goc3{
+       max-width: none; 
+       padding: 0 0 20px 0;
+    }
+
+    .text-gof{
+        padding: 5px 0 0 0;
+    }
+
+    .the-purchase-price{
+        display: none;
+    }
+
+    .footer-img-left img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .img-item-footer{
+        padding: 9px;
+    }
+}
